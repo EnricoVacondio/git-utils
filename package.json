@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "dev": "pnpm --filter cli run dev"
   },
   "packageManager": "pnpm@10.28.1",
   "devDependencies": {
